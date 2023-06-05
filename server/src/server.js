@@ -3,7 +3,7 @@ const mongoose = require("mongoose")
 
 const PORT = 5000;
 mongoose.set('strictQuery', false)
-const DB = "mongodb+srv://ulka:ulka2005@cluster0.0ztiq13.mongodb.net/test"
+const DB = ""
 
 const app = require("./app");
 
