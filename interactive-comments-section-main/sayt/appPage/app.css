@@ -1,0 +1,423 @@
+* {
+	box-sizing: border-box;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	overflow-x: hidden;
+	list-style-type: none;
+	text-decoration: none;
+}
+
+
+body{
+	background-color: #060d17;
+}
+
+nav {
+	display: flex;
+	/* background-color: rgba(213, 213, 213, 0.313); */
+	background-color: rgba(18, 12, 40, 0.9);
+	justify-content: space-between;
+	height: 60px;
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+	transition: all 0.5s ease-in;
+	margin-bottom: 3px;
+	overflow: hidden;
+}
+
+nav ul {
+	display: flex;
+	list-style-type: none;
+	overflow: hidden;
+
+}
+
+nav img {
+	margin: -20px;
+    margin-left: 5px;
+}
+
+
+nav ul li a {
+	text-decoration: none;
+	font-size: 20px;
+	margin: 0px 10px;
+	color: #888;
+	/* color: #6600CC; */
+}
+
+nav ul li {
+	overflow: hidden;
+}
+
+.click {
+	cursor: pointer;
+	border: none;
+	background-color: #fff;
+	padding: 10px;
+	border: 1px solid grey;
+	border-radius: 20px;
+	width: 80px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.click:hover {
+	transition: 0.4s ease;
+	color: #fff;
+}
+
+nav ul li:hover {
+	transform: scale(1.01);
+	transition: transform 0.8s ease;
+}
+
+nav ul li:hover a {
+	border-bottom: 1px solid;
+	/* color: #5e3314; */
+	color: #fff;
+	font-weight: 600;
+	transition: all 0.7s ease;
+}
+
+
+/*                                                  888888 8 */
+
+.nav2 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	/* background-color: rgba(213, 213, 213, 0.313); */
+	box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);
+	height: 100px;
+	transition: all 0.16s ease-out;
+	overflow: hidden;
+}
+
+.nav2 ul {
+	display: flex;
+	list-style-type: none;
+	height: 60px;
+	margin-top: 50px;
+}
+
+.nav2 a {
+	text-decoration: none;
+	margin: 0px 10px;
+	/* color: black; */
+	font-size: 18px;
+	/* color: #330066; */
+	color: #888;
+}
+
+
+
+.mainLogins {
+	margin-top: 10px;
+	display: flex;
+}
+
+.cLogin {
+	width: 110px;
+	color: #888;
+	font-weight: bold;
+	font-size: 15px;
+	background-color: transparent;
+}
+
+.cLogin:hover {
+	transform: scale(1.02);
+	transition: transform 0.4s ease;
+}
+
+.cRegister {
+	width: 120px;
+	color: #888;
+	font-weight: bold;
+	font-size: 15px;
+	background-color: transparent;
+}
+
+
+
+.cRegister:hover {
+	transform: scale(1.02);
+	transition: transform 0.4s ease;
+	color: #fff;
+}
+
+
+
+.nav2 ul li:hover {
+	transform: scale(1.01);
+	transition: transform 0.8s ease;
+}
+
+.nav2 ul li:hover a {
+	border-bottom: 1px solid;
+	/* color: #5e3314; */
+	color: #fff;
+	font-weight: 600;
+	transition: all 0.7s ease;
+}
+
+/* ***************** */
+.appBanner {
+	height: 600px;
+	width: 100%;
+	position: relative;
+	background: linear-gradient(rgba(12, 33, 26, 0.8), rgba(12, 19, 26, 0.8)), url(//static.justwatch.com/static/img/applp/bg-opt.png), center/cover;
+}
+
+
+
+.appBannerRight img {
+	filter: none;
+	position: absolute;
+	width: 500px;
+	top: 15%;
+	right: 20%;
+	height: 400px;
+}
+
+.appBannerText h1 {
+	color: #fff;
+	position: absolute;
+	font-size: 30px;
+	letter-spacing: 1px;
+	top: 15%;
+	left: 20%;
+}
+
+.appBannerText p {
+	position: absolute;
+	color: #888;
+	font-size: 20px;
+	top: 25%;
+	left: 17%;
+}
+
+.appBannerLeftDownload img {
+	width: 250px;
+	border-radius: 15px;
+	cursor: pointer;
+	background: rgba(251, 197, 0, 1)
+}
+
+.appBannerLeftDownload img:hover {
+	background: rgb(236, 200, 73);
+	transform: scale(1.01);
+	transition: transform 0.4 ease;
+}
+
+
+
+.appBannerLeftDownload {
+	position: absolute;
+	top: 35%;
+	left: 10%;
+}
+
+.appMain {
+	height: 1100px;
+	overflow: hidden;
+	background: #060d17
+}
+
+/* **************** */
+.appTop {
+	border-bottom: 1px solid rgb(999, 999, 999, 0.3);
+}
+
+.appTopMainContext img {
+	width: 300px;
+}
+
+.appMainTopText h5 {
+	color: #fff;
+	text-align: center;
+	font-size: 30px;
+	margin-top: 40px;
+}
+
+.appTopMainContext {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 10%;
+}
+
+.appTopMainTextFlex {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 20px;
+}
+
+.appTopMainContext h6 {
+	color: #fff;
+	color: rgba(251, 197, 0, 1);
+	font-size: 20px;
+}
+
+.appTopMainContext p {
+	margin-top: 10px;
+	color: #fff;
+	text-align: center;
+}
+
+.appTopMainTextFlex:last-child {
+	margin-top: 120px;
+}
+
+/* ************ */
+.appButtomImg {
+	display: flex;
+	margin-top: 60px;
+	justify-content: center;
+}
+
+.appButtomImg img {
+	width: 300px;
+	border-radius: 15px;
+	margin: 0 40px;
+	cursor: pointer;
+	background: rgba(251, 197, 0, 1)
+}
+
+.appButtomText h5 {
+	color: #fff;
+	text-align: center;
+	font-size: 30px;
+	margin-top: 40px;
+
+}
+
+.appButtomImg img:hover {
+	background: rgb(236, 200, 73);
+	transform: scale(1.01);
+	transition: transform 0.4 ease;
+}
+
+/* ********** */
+.futterTop {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	border-bottom: 2px solid #242222;
+}
+
+
+.futter {
+	background-color: #060d17;
+	height: 420px;
+}
+
+.fLeft ul {
+	display: flex;
+}
+
+.futter li {
+	padding: 10px;
+}
+
+.fLeft a {
+	margin: 5px;
+	font-size: 22px;
+	font-weight: bold;
+	color: #888;
+}
+
+.fMiddle img {
+	scale: 1.5;
+	cursor: pointer;
+
+}
+
+.fMiddle {
+	overflow: hidden;
+	padding: 10px;
+}
+
+
+.fRight {
+	font-size: 22px;
+}
+
+.fRight i {
+	margin: 5px;
+	cursor: pointer;
+	color: #888;
+}
+
+
+
+.fLeft li a:hover {
+	transform: scale(1.01);
+	transition: all 0.4s ease;
+	color: #fff;
+	border-bottom: 1px solid #888;
+}
+
+.fMiddle img:hover {
+	transform: scale(1.01);
+	transition: transform 0.4s ease;
+}
+
+.fRight i:hover {
+	color: #fff;
+	transform: scale(1.01);
+	transition: transform 0.4s ease;
+}
+
+.futterBottom {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.futterBottom p {
+	color: #eee;
+	font-size: 20px;
+	margin-right: 40px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	letter-spacing: 1px;
+	color: #eee;
+	text-transform: uppercase;
+}
+
+.futterContent {
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+}
+
+.futterContent input {
+	background-color: #464545;
+	border: 1px solid #888;
+	width: 250px;
+	border-radius: 14px 0px 0px 14px;
+	font-size: 18px;
+	color: #fff;
+	height: 50px;
+	font-weight: bold;
+}
+
+.futterContent input:focus {
+	outline: none;
+}
+
+.futterContent button {
+	width: 50px;
+	height: 50px;
+	background-color: #854309;
+	cursor: pointer;
+	border-radius: 0px 14px 14px 0px;
+	border: none;
+}
+
+.privacy {
+	color: #888;
+	margin-top: 40px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
