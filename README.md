@@ -1,6 +1,6 @@
 # Movie Site
 
-Movie Site is an award-winning final project developed for Coders Azerbaijan UNEC. It is a dynamic web application that serves as a platform for users to engage in discussions about movies. With features like user registration and login, users can have a personalized experience and actively participate in conversations about their favorite films.
+Movie Site is an award-winning final group project developed for Coders Azerbaijan UNEC. It is a dynamic web application that serves as a platform for users to engage in discussions about movies. With features like user registration and login, users can have a personalized experience and actively participate in conversations about their favorite films.
 
 ## Features
 
